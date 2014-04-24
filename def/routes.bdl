@@ -1,0 +1,6 @@
+def routes main
+	resources users with
+		get profile users#profile, 20
+	end
+	resources pages
+end
